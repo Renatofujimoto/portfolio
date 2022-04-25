@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+  margin:0%;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.foto-perfil{
+  height: 100%;
+  width: auto;
+  max-width: 25%;
+  border-radius: 50%;
+}
+.corPrimaria{
+  background-color: #18bc9c;
+}
+
+.corSecundaria{
+  background-color: #0c8066;
+}
+p{
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: black !important;
+}
+.icones{
+  padding: 5px;
+}
+
+.titulosBrancos{
+  text-decoration:underline ;
+  text-underline-position: below;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+
+.titulosVerdes{
+  text-decoration:underline ;
+  text-underline-position: below;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #18bc9c;
+}
+.textoBrancos{
+  color: white !important;
+}
+
+.jumbotron{
+  margin-bottom:0px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.menu-content{
+  text-transform: uppercase;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.menu-content{
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.menu-content .list-itens{
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.menu-content .list-itens a {
+  text-decoration:none;
+  color:black;
+  padding: 1.5rem;
+  transition: 2ms ease-in;
+  position: relative;
+}
+.menu-content .list-itens a:before{
+  content:' ';
+  position: absolute;
+  bottom:0px;
+  left: 0px;
+  width: 0px;
+  height: 1px;
+  background:rgb(87, 87, 85);
+  transition: all 1.5 ease;
+}
+
+.menu-content .list-itens a:hover:before{
+  width: 100%;
+}
