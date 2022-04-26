@@ -7,11 +7,10 @@
 }
 
 .foto-perfil{
-  height: 100vh;
   width: 10rem;
   max-width: 100%;
   border-radius: 50%;
-  object-fit: cover;
+}
 }
 .corPrimaria{
   background-color: #18bc9c;
