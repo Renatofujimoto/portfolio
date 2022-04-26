@@ -13,11 +13,11 @@
   object-fit: cover;
 }
 .corPrimaria{
-  background-color: #18bc9c;
+  background-color: #121313;
 }
 
 .corSecundaria{
-  background-color: #0c8066;
+  background-color: #333636;
 }
 p{
   font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -42,7 +42,7 @@ p{
   padding-bottom: 20px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #18bc9c;
+  color: #1e2221;
 }
 .textoBrancos{
   color: white !important;
