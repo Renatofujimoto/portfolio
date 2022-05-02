@@ -2,33 +2,51 @@
 
 *{
   margin:0%;
-  padding:0;
+  padding:0px;
   box-sizing: border-box;
-}
-
-.foto-perfil{
-  width: 10rem;
-  max-width: 100%;
-  border-radius: 50%;
-  object-fit: cover;
-}
-.corPrimaria{
-  background-color: #121313;
-}
-
-.corSecundaria{
-  background-color: #333636;
 }
 p{
   font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  color: black !important;
+  color: #000 !important;
 }
+h2{
+  padding: 10px;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.container{
+  padding: 20px;
+}
+/* digitaçao*/
+.saida {
+  background: #7E0924;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+}
+.foto-perfil{
+  width: 10rem;
+  max-width: 50%;
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+.corPrimaria{
+  background-color: #000;
+}
+
+.corSecundaria{
+  background-color: #7E0924;
+}
+
 .icones{
   padding: 5px;
 }
 
 .titulosBrancos{
-  text-decoration:underline ;
   text-underline-position: below;
   padding-bottom: 20px;
   text-transform: uppercase;
@@ -37,7 +55,6 @@ p{
 }
 
 .titulosVerdes{
-  text-decoration:underline ;
   text-underline-position: below;
   padding-bottom: 20px;
   text-transform: uppercase;
@@ -47,53 +64,111 @@ p{
 .textoBrancos{
   color: white !important;
 }
-
 .jumbotron{
-  margin-bottom:0px;
+  padding: 0rem;
 }
 
-html{
-  scroll-behavior: smooth;
-}
+/* botoes do menu*/
+
 .menu-content{
   text-transform: uppercase;
   height: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 1rem;
+  font-size: 18px;
 }
 
 .menu-content{
   display: flex;
   list-style: none;
   gap: 10px;
+  
 }
 
 .menu-content .list-itens{
   display: flex;
   list-style: none;
-  gap: 10px;
+  gap: 20px;
+  color: white;
+  padding-left: 10px;
+  
 }
 
 .menu-content .list-itens a {
-  text-decoration:none;
-  color:black;
-  padding: 1.5rem;
-  transition: 2ms ease-in;
-  position: relative;
+  background: #000;
+  color: #fff;
+  border-radius:20px;
+  transition: transform 0.3s ease;
 }
-.menu-content .list-itens a:before{
+.menu-content .list-itens a::after, .menu-content .list-itens a::before {
   content:' ';
   position: absolute;
-  bottom:0px;
-  left: 0px;
-  width: 0px;
-  height: 1px;
-  background:rgb(87, 87, 85);
-  transition: all 1.5 ease;
+  opacity: 0.3;
+  background: #000;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;
+  
+}
+.menu-content .list-itens a:hover{
+  transform: translate(-12px, -12px);
+}
+.menu-content .list-itens a:hover::after{
+  transform: translate(6px, 6px);
+}
+.menu-content .list-itens a:hover::before{
+  transform: translate(12px, 12px);
 }
 
-.menu-content .list-itens a:hover:before{
+
+/* botoes dos projetos*/
+
+.btn-group{
+  gap: 260px;
+ }
+
+ .btn-group a {
+  background: none;
+  color: #fff;
+  border-radius:20px;
+  transition: transform 0.3s ease;
+}
+.btn-group a::after, .btn-group a::before {
+  content:' ';
+  position: absolute;
+  opacity: 0.3;
+  background: #000;
+  border-radius: inherit;
   width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;
+  
+}
+.btn-group a:hover{
+  transform: translate(-12px, -12px);
+}
+.btn-group a:hover::after{
+  transform: translate(6px, 6px);
+}
+.btn-group a:hover::before{
+  transform: translate(12px, 12px);
+}
+
+/* Contatos*/
+
+.contatos {
+  background: #7E0924;
+  padding: 10px;
+  padding-top: 5px;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
 }
