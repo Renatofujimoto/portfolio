@@ -33,7 +33,8 @@
     ></script>
   </head>
   <body>
-    <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
+    <nav class="corSecundaria navbar">
+      <a class="navbar-brand" href="#"></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -46,13 +47,14 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="menu-content" id="navbarSupportedContent">
+      <div class="menu-content textoBrancos">
+        <nav class="header-menu"></nav>
         <ul class="list-itens">
           <li class="nav-item">
-            <a class="nav-link textoBrancos" href="#projetos">Projetos</a>
+            <a class="nav-link textoBrancos" href="#projetos"> Meus Projetos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link textoBrancos" href="#sobre-mim">Sobre Mim</a>
+            <a class="nav-link textoBrancos" href="#sobre-mim">Trajetoria</a>
           </li>
           <li class="nav-item">
             <a class="nav-link textoBrancos" href="#depoimentos">Depoimento</a>
@@ -63,12 +65,11 @@
     <section class="corPrimaria text-center">
       <div class="container">
         <img class="foto-perfil" src="foto.jpg" alt="fotoperfil" />
-        <h1 class="jumbotron-heading textoBrancos">Renato Shigueo Fujimoto</h1>
-        <p class="lead textoBrancos">
-          Front-End Developer | Back-End Developer
-        </p>
+        <h2 class="jumbotron-heading textoBrancos">Renato Shigueo Fujimoto</h2>
+        <p class="saida textoBrancos"> </o>
+          
         <p>
-          <a href="#" class="btn btn-dark my-2">Contato</a>
+          <a class="contatos" href="#"> Mídias Sociais 👇🏻 </a>
         </p>
         <a
           href="https://www.linkedin.com/in/renato-fujimoto-1321b71b0/"
@@ -90,7 +91,9 @@
     </section>
     <div class="album py-5 bg-light" id="projetos">
       <div class="container">
-        <h2 class="jumbotron-heading text-center titulosVerdes">Projetos</h2>
+        <h2 class="jumbotron-heading text-center titulosVerdes">
+          Meus Projetos 🤘🏻
+        </h2>
         <div class="row">
           <div class="col-md-6">
             <div class="card mb-4 box-shadow">
@@ -283,9 +286,11 @@
       </div>
     </div>
     <!-- Sobre mim-->
-    <section class="corPrimaria text-center" id="sobre-mim">
-      <div class="container">
-        <h2 class="jumbotron-heading titulosBrancos">Sobre Mim</h2>
+    <section class="corPrimaria" id="sobre-mim">
+      <div class="container text-hight">
+        <h2 class="jumbotron-heading titulosBrancos text-center">
+          Minha Trajetória 🏃🏻‍♂️
+        </h2>
         <p class="textoBrancos">
           Meu nome é Renato Shigueo Fujimoto, cursei 3 anos de direito e
           trabalhando com parte administrativa boa parte da vida. Sempre
@@ -306,11 +311,13 @@
         </p>
       </div>
     </section>
+
     <!-- Depoimentos-->
-    <section class="jumbotron text-center" id="depoimentos">
-      <div class="container">
-        <h2 class="jumbotron-heading text-center titulosVerdes">Depoimentos</h2>
-        <blockquote class="blockquote text-center">
+
+    <section class="jumbotron" id="depoimentos">
+      <div class="jumbotron">
+        <h2 class="jumbotron-heading text-center titulosVerdes">Depoimentos 🗣️</h2>
+        <blockquote class="blockquote">
           <p class="mb-0">
             Trabalhei com o Renato e vi uma grande capacidade de adaptação,
             gestão emocional e habilidade para resolução de problemas atráves da
@@ -320,7 +327,7 @@
             Tech lead<cite title="Source Title"> Nubank</cite>
           </footer>
         </blockquote>
-        <blockquote class="blockquote text-center">
+        <blockquote class="blockquote">
           <p class="mb-0">
             Um grande profissional, sempre buscando evoluir com muita garra e
             determinação em busca de seus objetivos
@@ -334,7 +341,8 @@
 
     <!-- Footer -->
     <footer class="text-center">
-      <p>Copyright 2022 Codamos/></p>
+      <p>Copyright 2022 Code.me/></p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
