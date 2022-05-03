@@ -10,7 +10,7 @@ p{
   color: #000 !important;
 }
 h2{
-  padding: 10px;
+  padding: 20px;
 }
 html{
   scroll-behavior: smooth;
@@ -25,7 +25,7 @@ html{
   padding: 15px;
   border-radius: 20px;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 .foto-perfil{
   width: 10rem;
@@ -43,7 +43,7 @@ html{
 }
 
 .icones{
-  padding: 5px;
+  padding: 10px;
 }
 
 .titulosBrancos{
@@ -76,13 +76,15 @@ html{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 18px;
+  font-size: 15px;
+  
 }
 
 .menu-content{
   display: flex;
   list-style: none;
   gap: 10px;
+  padding: inherit;
   
 }
 
@@ -129,7 +131,7 @@ html{
 /* botoes dos projetos*/
 
 .btn-group{
-  gap: 260px;
+  gap: 20px;
  }
 
  .btn-group a {
