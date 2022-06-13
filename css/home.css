@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+  margin:0%;
+  padding:0px;
+  box-sizing: border-box;
+}
+p{
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+h2{
+  padding: 20px;
+}
+.nome{
+  color: #fff;
+  font-style: italic;
+  text-shadow: 2px 2px 2px #4a4e4d;
+}
+/* digitaçao*/
+.saida {
+  background: #7E0924;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+  font-size: 25px;
+}
+.foto-perfil{
+  width: 10rem;
+  max-width: 50%;
+  border-radius: 50%;
+  object-fit: cover;
+  padding-top: 20px;
+}
+
+.corPrimaria{
+  background-color: #000;
+}
+
+.corSecundaria{
+  background-color: #7E0924;
+}
+
+.titulosBrancos{
+  text-underline-position: below;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+
+.titulosVerdes{
+  text-underline-position: below;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #1e2221;
+}
+.textoBrancos{
+  color: white !important;
+}
+/* botoes do menu*/
+
+.menu-content{
+  text-transform: uppercase;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+  list-style: none;
+  gap: 10px;  
+}
+
+.menu-content .list-itens{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: white;
+  padding-left: 10px;
+  
+}
+
+.menu-content .list-itens a {
+  background: #000;
+  color: #fff;
+  border-radius:20px;
+  transition: transform 0.3s ease;
+}
+.menu-content .list-itens a::after, .menu-content .list-itens a::before {
+  content:' ';
+  position: absolute;
+  opacity: 0.3;
+  background: #000;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;  
+}
+
+.menu-content .list-itens a:hover{
+  transform: translate(-12px, -12px);
+}
+.menu-content .list-itens a:hover::after{
+  transform: translate(6px, 6px);
+}
+.menu-content .list-itens a:hover::before{
+  transform: translate(12px, 12px);
+}
+
+.contatos {
+  background: #7E0924;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  padding-top: 0.5rem;
+}
+
+.social-container ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+}
+
+.social-container li{
+  height: 48px;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  transition: all 1s;
+  text-shadow: 2px 2px 2px #000;
+  padding: 10px;
+}
+
+.social-container i {
+  font-size: 1.5rem;
+}
+
+.social-container li:hover {
+  background-color: #7E0924;
+  border-radius: #7E0924;
+}
+
+@keyframes zoom{
+  0%{
+    transform:scale(3);    
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+.foto-perfil, ul, .social-container, .contatos, .nome{
+  animation: zoom 2s alternate;
+}
