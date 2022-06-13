@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Renato Shigueo Fujimoto</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Projetos</title>
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/burguer.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -13,477 +14,78 @@
       crossorigin="anonymous"
     />
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
       src="https://kit.fontawesome.com/f67b0ea79f.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <nav class="corSecundaria navbar">
-      <a class="navbar-brand" href="#"></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="menu-content textoBrancos">
-        <nav class="header-menu"></nav>
-        <ul class="list-itens">
-          <li class="nav-item">
-            <a class="nav-link textoBrancos" href="#projetos">Projetos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link textoBrancos" href="#sobre-mim">Trajetoria</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link textoBrancos" href="#skills">Skills</a>
-          </li>
-        </ul>
+  <body class="corPrimaria">
+    <nav class="corSecundaria navbar">
+      <a href="#" class="menu-burguer-container">
+        <i class="menu-burguer"></i>
+      </a>
+      <div class="menu-content">
+        <nav>
+          <ul class="list-itens">
+            <li>
+              <a class="nav-link textoBrancos" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="nav-link textoBrancos" href="project.html">Projetos</a>
+            </li>
+            <li>
+              <a class="nav-link textoBrancos" href="sobremim.html"
+                >Sobre Mim</a
+              >
+            </li>
+          </ul>
+        </nav>
       </div>
     </nav>
-    <section class="corPrimaria text-center">
+    <section class=" corPrimaria text-center">
       <div class="container">
         <img class="foto-perfil" src="foto.jpg" alt="fotoperfil" />
-        <h2 class="jumbotron-heading textoBrancos">Renato Shigueo Fujimoto</h2>
+        <h2 class="nome">Renato <br>Shigueo <br>Fujimoto</h2>
         <p class="saida textoBrancos"> </o>
           
         <p>
           <a class="contatos" href="#"> Mídias Sociais 👇🏻 </a>
         </p>
-        <a
-          href="https://www.linkedin.com/in/renato-fujimoto-1321b71b0/"
-          target="_blank"
-          ><i class="textoBrancos icones fab fa-linkedin"></i
-        ></a>
-        <a href="https://www.instagram.com/fujimotorenato/" target="_blank"
-          ><i class="textoBrancos icones fab fa-instagram"></i
-        ></a>
-        <a href="https://github.com/Renatofujimoto" target="_blank"
-          ><i class="textoBrancos icones fab fa-github"></i
-        ></a>
-        <a
-          href="https://api.whatsapp.com/send/?phone=5511973810368&text&app_absent=0"
-          target="_blank"
-          ><i class="textoBrancos icones fab fa-whatsapp"></i
-        ></a>
       </div>
-    </section>
-    <div class="album py-5 bg-light" id="projetos">
-      <div class="container">
-        <h2 class="jumbotron-heading text-center titulosVerdes">
-          Meus Projetos 🤘🏻
-        </h2>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="card mb-4 box-shadow">
-              <img
-                class="card-img-top"
-                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                alt="Thumbnail [100%x225]"
-                style="
-                  height: 225px;
-                  width: 100%;
-                  max-width: 100%;
-                  display: block;
-                "
-                src="img/drstrange.png"
-                data-holder-rendered="true"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Lading Page responsiva feita com HTML,CSS e JavaScript, usando um personagem da Marvel
-                  como tema. O Doctor Strange
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a
-                      href="https://renatofujimoto.github.io/drStrange/"
-                      target="_blank"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-success"
-                      >
-                        Ver Projeto
-                      </button></a
-                    >
-                    <a
-                      href="https://github.com/Renatofujimoto/drStrange"
-                      target="_blank"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-primary"
-                      >
-                        Código
-                      </button></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-md-6">
-            <div class="card mb-4 box-shadow">
-              <img
-                class="card-img-top"
-                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                alt="Thumbnail [100%x225]"
-                style="
-                  height: 225px;
-                  width: 100%;
-                  max-width: 100%;
-                  display: block;
-                "
-                src="img/calculadora.jpg"
-                data-holder-rendered="true"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Calculadora feita com HTML, estilizada com CSS e algumas
-                  funções básicas de JavaScript para efetuar as operações
-                  matemáticas
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a
-                      href=" https://renatofujimoto.github.io/calculadora/"
-                      target="_blank"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-success"
-                      >
-                        Ver Projeto
-                      </button></a
-                    >
-                    <a
-                      href="https://github.com/Renatofujimoto/calculadora"
-                      target="_blank"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-primary"
-                      >
-                        Código
-                      </button></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="card mb-4 box-shadow">
-              <img
-                class="card-img-top"
-                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                alt="Thumbnail [100%x225]"
-                style="
-                  height: 225px;
-                  width: 100%;
-                  max-width: 100%;
-                  display: block;
-                "
-                src="img/formulario.jpg"
-                data-holder-rendered="true"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Formulário validado com a API do HTML e estilizado com CSS,
-                  usando funções básicas de JavaScript
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a
-                      href="https://renatofujimoto.github.io/formulario/"
-                      target="_blank"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-success"
-                      >
-                        Ver Projeto
-                      </button></a
-                    >
-                    <a
-                      href="https://github.com/Renatofujimoto/formulario"
-                      target="_blank"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-primary"
-                      >
-                        Código
-                      </button></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="card mb-4 box-shadow">
-              <img
-                class="card-img-top"
-                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                alt="Thumbnail [100%x225]"
-                style="
-                  height: 225px;
-                  width: 100%;
-                  max-width: 100%;
-                  display: block;
-                "
-                src="img/snake.jpg"
-                data-holder-rendered="true"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Jogo desenvolvido com o Programador BR, feito com Html e Javascript. No Javascript foram feitos blocos de if para movimentar a cobra, passos de for para o tamanho da cobra caso ela coma uma "maça" e definições de variaveis
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a
-                      href="https://renatofujimoto.github.io/snakeGame/"
-                      target="_blank"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-success"
-                      >
-                        Ver Projeto
-                      </button></a
-                    >
-                    <a
-                      href="https://github.com/Renatofujimoto/snakeGame"
-                      target="_blank"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-primary"
-                      >
-                        Código
-                      </button></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="card mb-4 box-shadow">
-              <img
-                class="card-img-top"
-                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                alt="Thumbnail [100%x225]"
-                style="
-                  height: 225px;
-                  width: 100%;
-                  max-width: 100%;
-                  display: block;
-                "
-                src="img/todolist.jpg"
-                data-holder-rendered="true"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Conceitos básico de "crud" para back end, mandando arquivos "JSON" e usando como banco de dados o local storage
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a
-                      href="https://renatofujimoto.github.io/todolist/"
-                      target="_blank"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-success"
-                      >
-                        Ver Projeto
-                      </button></a
-                    >
-                    <a
-                      href="https://github.com/Renatofujimoto/todolist"
-                      target="_blank"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-primary"
-                      >
-                        Código
-                      </button></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="card mb-4 box-shadow">
-              <img
-                class="card-img-top"
-                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                alt="Thumbnail [100%x225]"
-                style="
-                  height: 225px;
-                  width: 100%;
-                  max-width: 100%;
-                  display: block;
-                "
-                src="img/2022-05-31.jpg"
-                data-holder-rendered="true"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Tela de cadastramento de clientes utilizando HTML, CSS e JavaScript. Foram exercitados conceitos de "CRUD" no back-end, arquivando dados no local storage
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a
-                      href="https://renatofujimoto.github.io/todolist/"
-                      target="_blank"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-success"
-                      >
-                        Ver Projeto
-                      </button></a
-                    >
-                    <a
-                      href="https://github.com/Renatofujimoto/todolist"
-                      target="_blank"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-primary"
-                      >
-                        Código
-                      </button></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="card mb-4 box-shadow">
-              <img
-                class="card-img-top"
-                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                alt="Thumbnail [100%x225]"
-                style="height: 225px; width: 100%; display: block"
-                src="img/cracha.jpg"
-                data-holder-rendered="true"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Cracha realizado na NLW da rockeseat utilizando HTML,CSS e
-                  JavaScript consumindo a API do github
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a
-                      href="https://renatofujimoto.github.io/cracha-nwl/"
-                      target="_blank"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-success"
-                      >
-                        Ver Projeto
-                      </button></a
-                    >
-                    <a
-                      href="https://github.com/Renatofujimoto/cracha-nwl"
-                      target="_blank"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-primary"
-                      >
-                        Ver Código
-                      </button></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Sobre mim-->
-    <section class="corPrimaria" id="sobre-mim">
-      <div class="container text-hight">
-        <h2 class="jumbotron-heading titulosBrancos text-center">
-          Minha Trajetória 🏃🏻‍♂️
-        </h2>
-        <p class="textoBrancos">
-          Meu nome é Renato Shigueo Fujimoto, cursei 3 anos de direito e
-          trabalhando com parte administrativa boa parte da vida. Sempre
-          conversando com pessoas, quando vinha aquela e rotineira pergunta do
-          que eu fazia da vida, respondia que trabalhava na parte administrativa
-          e cursava direito para ser advogado mas havia uma certa decepção com a
-          expectativa das pessoas, pois muitos juravam que eu trabalhava com
-          TI.<br />
-          Foi então que em dezembro de 2021 e de férias da faculdade, acabei
-          entrando em uma imersão de programação para ter uma noção básica de
-          como se dava os conceitos, confesso que entrei com um certo receio de
-          não aprender nada por ter uma certa afinidade com a área de humanas,
-          porém como nas rotinas de escritório eu trabalhava com Excel,<br />
-          isso acabou sendo uma base para a lógica de programação e eu acabei
-          derrubando um medo da área, me fascinando pelo poder de impacto das
-          pessoas através da tecnologia. <br />Depois de alguns cursos,
-          transferi meu curso para análise e desenvolvimento de sistemas.
-        </p>
-      </div>
-    </section>
-
-    <!-- Depoimentos-->
-
-    <section class="white" id="skills">
-      <div class="container text-hight">
-        <h2 class="jumbotron-heading titulosVerdes text-center">
-          Hard Skills 💪🏻
-        </h2>
+      <div class="social-container">
         <ul>
-          <li> HTML 5 </li>
-          <li> CSS 3 </li>
-          <li> JavaScript ES6</li>
-          <li> Node.js </li>
-          <li> SQL Server</li>
-        <h3 class="jumbotron-heading titulosVerdes text-center">
-          Cursos
-        </h3>
-        <ul>
-          <li> Universidade Anhanguera - Análise e Desenvolvimento de Sistemas</li>
-          <li> Universo BI - Microsoft Power Business Intelligence</li>
-          <li>DNC - Python</li>
-          <li> Rockeseat - Discover </li>
-          <li> Curso Em Vídeo - JavaScript ES6 </li>
-          <li> Curso Em Vídeo - HTML 5 e CSS 3</li>
-          
+          <li>
+            <a href="https://www.linkedin.com/in/renato-fujimoto-1321b71b0/" target="_blank">
+              <i class="textoBrancos fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/fujimotorenato/" target="_blank">
+              <i class="textoBrancos fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Renatofujimoto" target="_blank">
+              <i class="textoBrancos fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/renato.fujimoto.9" target="_blank">
+              <i class="textoBrancos fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://api.whatsapp.com/send/?phone=5511973810368&text&app_absent=0" target="_blank">
+              <i class="textoBrancos fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
         </ul>
       </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-      <p>Copyright 2022 Code.me</p>
+    <!-- Footer -->  
+    <footer class="textoBrancos text-center">
+      <p>Copyright 2022 &copy; | Renato Fujimoto</p>
     </footer>
     <script src="script.js"></script>
   </body>
