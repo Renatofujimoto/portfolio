@@ -1,10 +1,9 @@
-div{
-  padding-left: 5px;
+h2{
+  padding: 15px;
 }
 .texto{
   font-display: italic;
   color: #fff;
-  text-transform: uppercase;
   text-shadow: 2px 2px 2px #7E0924;
 }
 .corPrimaria{
