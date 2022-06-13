@@ -1,0 +1,101 @@
+.corPrimaria{
+  background-color: #000;
+}
+
+.corSecundaria{
+  background-color: #7E0924;
+}
+
+.menu-content{
+  text-transform: uppercase;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+  list-style: none;
+  gap: 10px;  
+}
+
+.menu-content .list-itens{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: white;
+  padding-left: 10px;  
+}
+
+.menu-content .list-itens a{
+  background: #000;
+  color: #fff;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.menu-content .list-itens a::after, .menu-content .list-itens a::before{
+  content: " ";
+  position: absolute;
+  opacity: 0.3;
+  background: #000;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+.menu-content .list-itens a:hover{
+  transform: translate(-12px, -12px);
+}
+.menu-content .list-itens a:hover::after{
+  transform: translate(6px, 6px);
+}
+.menu-content .list-itens a:hover::before{
+  transform: translate(12px, 12px);
+}
+/* botoes dos projetos*/
+.btn-group{
+  gap: 20px;
+}
+
+.btn-group a {
+  background: none;
+  color: #fff;
+  border-radius:20px;
+  transition: transform 0.3s ease;
+}
+
+.btn-group a::after, .btn-group a::before {
+  content:' ';
+  position: absolute;
+  opacity: 0.3;
+  background: #000;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;  
+}
+
+.btn-group a:hover{
+  transform: translate(-12px, -12px);
+}
+
+.btn-group a:hover::after{
+  transform: translate(6px, 6px);
+
+}
+.btn-group a:hover::before{
+  transform: translate(12px, 12px);
+}
+
+h1{
+ text-align: center;
+ text-shadow: 2px 2px 2px rgb(134, 126, 126);
+ font-style: italic;
+ padding: 20px;
+ text-transform: uppercase;
+}
