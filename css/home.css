@@ -64,7 +64,7 @@ html{
 /*  Home   inicio  */
 .home{
     display: flex;
-    background: url(/img/fundo.jpg) no-repeat;
+    background: #111;
     background-size: cover;
     height: 100vh;
     color: #fff;
