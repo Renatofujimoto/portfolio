@@ -64,7 +64,7 @@ html{
 /*  Home   inicio  */
 .home{
     display: flex;
-    background: linear-gradient(90deg, #222, #111 25%, #000A 50%, #0000), url(/img/fundo.jpg) no-repeat;
+    background: url(/img/fundo.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
     color: #fff;
