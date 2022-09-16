@@ -4,89 +4,277 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projetos</title>
+    <title>Portfólio</title>
+
     <link rel="stylesheet" href="css/home.css" />
-    <link rel="stylesheet" href="css/burguer.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://kit.fontawesome.com/f67b0ea79f.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
-
-  <body class="corPrimaria">
-    <nav class="corSecundaria navbar">
-      <a href="#" class="menu-burguer-container">
-        <i class="menu-burguer"></i>
-      </a>
-      <div class="menu-content">
-        <nav>
-          <ul class="list-itens">
-            <li>
-              <a class="nav-link textoBrancos" href="index.html">Home</a>
-            </li>
-            <li>
-              <a class="nav-link textoBrancos" href="project.html">Projetos</a>
-            </li>
-            <li>
-              <a class="nav-link textoBrancos" href="sobremim.html"
-                >Sobre Mim</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </nav>
-    <section class=" corPrimaria text-center">
-      <div class="container">
-        <img class="foto-perfil" src="foto.jpg" alt="fotoperfil" />
-        <h2 class="nome">Renato <br>Shigueo <br>Fujimoto</h2>
-        <p class="saida textoBrancos"> </o>
-          
-        <p>
-          <a class="contatos" href="#"> Mídias Sociais 👇🏻 </a>
-        </p>
-      </div>
-
-      <div class="social-container">
-        <ul>
-          <li>
-            <a href="https://www.linkedin.com/in/renato-fujimoto-1321b71b0/" target="_blank">
-              <i class="textoBrancos fa-brands fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/fujimotorenato/" target="_blank">
-              <i class="textoBrancos fa-brands fa-instagram"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/Renatofujimoto" target="_blank">
-              <i class="textoBrancos fa-brands fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/renato.fujimoto.9" target="_blank">
-              <i class="textoBrancos fa-brands fa-facebook-f"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://api.whatsapp.com/send/?phone=5511973810368&text&app_absent=0" target="_blank">
-              <i class="textoBrancos fa-brands fa-whatsapp"></i>
-            </a>
-          </li>
+  <body>
+    <div class="scroll-up-btn">
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
+    <div class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">Port<span>fólio</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#skills">Especialidade</a></li>
+          <li><a href="#contact">Contato</a></li>
         </ul>
+        <div class="menu-btn">
+          <ion-icon name="menu-outline"></ion-icon>
+        </div>
+      </div>
+    </div>
+
+    <!--home inicio-->
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Bem vindo, meu nome é</div>
+          <div class="text-2">Renato Fujimoto</div>
+          <div class="text-3">
+            eu sou <span class="typing">Desenvolvedor</span>
+          </div>
+          <a href="#">Contratar-me</a>
+        </div>
       </div>
     </section>
-    <!-- Footer -->  
-    <footer class="textoBrancos text-center">
-      <p>Copyright 2022 &copy; | Renato Fujimoto</p>
+
+    <!--sessão sobre-->
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">Sobre</h2>
+        <div class="about-content">
+          <div class="column left">
+            <img src="img/capa.jpg" alt="" />
+          </div>
+          <div class="column right">
+            <div class="text">
+              Sou Renato e sou <span class="typing-2"></span>
+            </div>
+            <p>
+              Um apaixonado por tecnologia e movido a desafios, sempre busquei
+              elevar meus conhecimentos para que eu possa entregar o meu melhor
+              em tudo que faço.
+            </p>
+            <a
+              href="https://www.linkedin.com/in/renato-fujimoto-1321b71b0/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--sessão serviços-->
+    <section class="services" id="services">
+      <div class="max-width">
+        <h2 class="title">Serviços</h2>
+        <div class="serv-content">
+          <div class="card">
+            <div class="box">
+              <ion-icon name="brush-outline"></ion-icon>
+              <div class="text">Web Design</div>
+              <p>Desenvolvimento de landing page.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <ion-icon name="trending-up-outline"></ion-icon>
+              <div class="text">Anúncios</div>
+              <p>Análise de dados e metricas para sua empresa.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <ion-icon name="code-outline"></ion-icon>
+              <div class="text">Design de Apps</div>
+              <p>Criativos para lançamentos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--sessão especialidade-->
+    <section class="skills" id="skills">
+      <div class="max-width">
+        <h2 class="title">Especialidades</h2>
+        <div class="skills-content">
+          <div class="column left">
+            <div class="text">Hard Skills</div>
+            <ul>
+              <li>
+                Universidade Anhanguera - Análise e Desenvolvimento de Sistemas
+              </li>
+              <li>Universo BI - Microsoft Power Business Intelligence</li>
+              <li>DNC - Python</li>
+              <li>Rockeseat - Discover</li>
+              <li>Curso Em Vídeo - JavaScript ES6</li>
+              <li>Curso Em Vídeo - HTML 5 e CSS 3</li>
+              <li>Bootcamp Santander FullStack Developer</li>
+            </ul>
+            <a href="#">Mais informações</a>
+          </div>
+          <div class="column right">
+            <div class="bars">
+              <div class="info">
+                <span>HTML</span>
+                <span>80%</span>
+              </div>
+              <div class="line html"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>CSS</span>
+                <span>80%</span>
+              </div>
+              <div class="line css"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>JavaScript</span>
+                <span>60%</span>
+              </div>
+              <div class="line js"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>React</span>
+                <span>30%</span>
+              </div>
+              <div class="line react"></div>
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>Java</span>
+                <span>10%</span>
+              </div>
+              <div class="line java"></div>
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>SQL Server</span>
+                <span>10%</span>
+              </div>
+              <div class="line sql"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Sessão contato-->
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contato</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <div class="text">Entre Em Contato</div>
+
+            <div class="icons">
+              <div class="row">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <div class="info">
+                  <div class="head">Whatsapp</div>
+                  <div class="sub-title">(11) 97381-0368</div>
+                </div>
+              </div>
+              <div class="row">
+                <ion-icon name="earth-outline"></ion-icon>
+                <div class="info">
+                  <div class="head">Endereço</div>
+                  <div class="sub-title">Santo André, SP</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <ion-icon name="person-outline"></ion-icon>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">renatofujimoto2@gmail.com</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <ion-icon name="logo-github"></ion-icon>
+                <div class="info">
+                  <div class="head">Github</div>
+                  <div class="sub-title">renatofujimoto</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--column left-->
+          <div class="column rigth">
+            <div class="text">Mensagem</div>
+            <form action="#">
+              <div class="fields">
+                <div class="field name">
+                  <input type="text" placeholder="Nome" required />
+                </div>
+                <div class="field email">
+                  <input type="email" placeholder="Email" required />
+                </div>
+              </div>
+              <div class="field">
+                <div class="field">
+                  <input type="text" placeholder="Sobrenome" required />
+                </div>
+                <div class="field textarea">
+                  <textarea
+                    cols="30"
+                    rows="10"
+                    placeholder="Escrever sua Mensagem..."
+                    required
+                  ></textarea>
+                </div>
+                <div class="button">
+                  <button type="submit">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--sessão  footer-->
+    <footer>
+      <span
+        >Criado por
+        <a href="https://www.instagram.com/tech.fujimoto/" target="_blank"
+          >@fujimotorenato</a
+        >
+        | Todos os direitos reservado 2021</span
+      >
     </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
   </body>
 </html>
