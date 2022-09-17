@@ -62,10 +62,10 @@ html{
     color: #fff;
 }
 /*  Home   inicio  */
-.home{
-    display: flex;
+.home{    
     background:url(../img/banner.png) no-repeat;
     background-size: cover;
+    display: flex;
     height: 100vh;
     color: #fff;
     min-height: 500px;
