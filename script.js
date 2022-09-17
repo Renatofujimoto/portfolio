@@ -16,13 +16,13 @@ $(document).ready(function () {
   })
 
   var typed = new Typed('.typing', {
-    strings: ['Front End Developer', 'Web Designer', 'Freelancer'],
+    strings: ['Front End Developer', 'Web Designer'],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
   })
   var typed = new Typed('.typing-2', {
-    strings: ['Desenvolvedor Front End', 'Web Designer', 'Freelancer'],
+    strings: ['Desenvolvedor Front End', 'Web Designer'],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
