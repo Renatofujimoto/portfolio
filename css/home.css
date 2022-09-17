@@ -63,7 +63,7 @@ html{
 }
 /*  Home   inicio  */
 .home{    
-    background:url(../img/fundo.jpg) no-repeat;
+    background:url(../img/banner.png) no-repeat;
     background-size: cover;
     display: flex;
     height: 100vh;
